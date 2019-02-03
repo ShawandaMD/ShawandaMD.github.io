@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "First Ruby CLI Application Survival Guide"
-date:       2019-02-03 13:54:23 +0000
+date:       2019-02-03 08:54:24 -0500
 permalink:  first_ruby_cli_application_survival_guide
 ---
 
