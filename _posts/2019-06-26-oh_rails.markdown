@@ -1,0 +1,39 @@
+---
+layout: post
+title:      "Oh Rails..."
+date:       2019-06-26 05:43:12 +0000
+permalink:  oh_rails
+---
+
+
+My first rails project was, how do I put this... a bit... daunting. I felt as if all of the knowledge I had just acquired was slipping through my fingers. I can almost compare it to my first CLI project, where I had absolutely no idea where to start. 
+
+The momentum came when I finally decided on an idea. To me, this was the crux of my project. And because hindsight is 20/20, I now have a better idea of what project ideas work and what will take way more effort than the time alloted to complete the project.
+
+The month of my project was the busiest time socially and work wise, so finding the time to balance my course work was a challenge.
+
+## My project
+I have a borderline obsession with trackers and planners. I recently started a new hobby of creating monthly habit trackers in a bullet journal to track my progress on things I wanted to become a habit. With this in mind, I tried my best to replicate this for my rails project.
+
+Users could create their own account and start keeping track of their habits and how often they were completing the tasks each day.
+
+## Where I ran into trouble...
+1. Feeling intimidated by the fact that this project would test my knowledge and how I allowed it to define my abilities as a programmer.
+
+2. Constantly mixing up the singular and plural use of my associations... 
+
+3. Having all of the steps in the correct order to be able to create a new association
+
+## My successes!
+1. Building my routes, forms, views, helper methods and models without a problem.
+
+2. More pieces would fall into place once a part of my project was working
+
+3. Realizing that failure is not an option and that I have the knowledge to build a project from scratch and asking for help is ok!
+
+
+I am still putting finishing touches on my project because in the end I want it to represent how I made the impossible, possible.
+
+Holiday break... where you at??
+
+-S
