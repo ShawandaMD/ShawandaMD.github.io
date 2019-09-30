@@ -21,7 +21,7 @@ Let's start with the basics...
 In order for your project to handle the functionalities that come with Javascript and jQuery we need to make sure a few things are set up…
 
 
-1.  Your gemfile needs to have the jQuery gem. If it is not already in the file add it, and run bundle install.
+Step 1.  Your gemfile needs to have the jQuery gem. If it is not already in the file add it, and run bundle install.
 
 ```
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
@@ -29,7 +29,7 @@ gem 'active_model_serializers'
 ```
 *** I'll explain the 2nd line of code later, but make sure you add it!*
 
-2.  Go over to your manifest file… if you are running Rails <= 5.0 you need to add this text  before your `//= require_tree` 
+Step 2.  Go over to your manifest file… if you are running Rails <= 5.0 you need to add this text  before your `//= require_tree` 
 
 ```
 //= require jquery3
@@ -37,7 +37,7 @@ gem 'active_model_serializers'
 ```
 
 
-3.  Lets handle relationships in JSON! This is where our Active Model Serializer gem comes in handy!
+Step 3.  Lets handle relationships in JSON! This is where our Active Model Serializer gem comes in handy!
 And because you added it earlier, we don’t have to bundle install again, and we can start building out our serializer.
 
 In your terminal type:
@@ -49,7 +49,7 @@ Rails g serializer *NAME OF MODEL*
 Your serializer models will show up in a separate folder **/app/serializers**
 
 
-4.  In the serializer model add the attributes that you want JSON to have access to.
+Step 4.  In the serializer model add the attributes that you want JSON to have access to.
 Also add the relationships for that model.
 
 Here is an example...
@@ -57,7 +57,7 @@ Here is an example...
 ![](https://imgur.com/a/YsJ6uJH)
 
 
-5.  Head into your controller so you have the option to render a JSON view.
+Step 5.  Head into your controller so you have the option to render a JSON view.
 You want your controller to respond to both html and JSON when necessary.
 
 Go into your controller and choose an action where you will need access to JSON.
