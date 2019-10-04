@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Scope and Hoisting Refresher"
-date:       2019-10-04 14:56:45 +0000
+date:       2019-10-04 10:56:47 -0400
 permalink:  scope_and_hoisting_refresher
 ---
 
@@ -16,7 +16,7 @@ So let’s get into it shall we?
 
 **Scope-** is where declared functions or variables have access or is available in your code.
 
-**Hoisting**- the action of moving all variable and function declarations to the top of the current scope.
+**Hoisting-** the action of moving all variable and function declarations to the top of the current scope.
 
 
 ## SCOPE
@@ -24,15 +24,15 @@ So let’s get into it shall we?
 Scope is important because it allows developers to easily follow/ debug code that has been given specific visibility to a specific area of code
 
 
-#### 3 TYPES OF SCOPE**
+#### 3 TYPES OF SCOPE
 
-##### *Global* 
+#### Global
 Variables and functions declared here are accessible everywhere in the code.
 
-##### *Function*
+#### Function
 Also known as local scope. Variables declared inside a function, can only be accessed from inside that function and will not be recognized or defined outside of it
 
-##### *Block*
+#### Block
 Variables declared in a block (Think curly brackets within an if statement) are not visible outside of the block.(Variables declared with var are not block scoped)
 
 ### SCOPE CHAIN
